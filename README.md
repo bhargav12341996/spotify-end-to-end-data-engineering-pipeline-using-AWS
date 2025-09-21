@@ -5,5 +5,10 @@ In this project, I built end-to-end data engineering pipeline using Spotify API 
 <img width="1895" height="1045" alt="image" src="https://github.com/user-attachments/assets/6c63c991-cc04-4912-bf3e-cabfce0f639c" />
 
 ## Steps involved in implementing this project:
-- hbkj
-* hello
+- Connected with Spotify API and extracted data using Spotipy package. Imported spotify and pandas package as custom layers to properly integrate with AWS lambda function.
+- Deployed Lambda functions to extract the data and transform the data.
+- Worked with Amazon S3 buckets to store both raw data and transformed data.
+- Used AWS EventBridge (Cloud Watch Events) to set trigger and to schedule the data extraction in regular time intervals.
+- Worked with AWS glue crawlers to infer schema for the transformed tables.
+- Used boto3 python SDK at both resource and client level to communicate with different AWS services.
+- Performed data analytics using AWS Athena analytical services.
