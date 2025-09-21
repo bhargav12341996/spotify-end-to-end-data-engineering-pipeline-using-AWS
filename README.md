@@ -14,3 +14,4 @@ In this project, I built end-to-end data engineering pipeline using Spotify API 
 - Worked with AWS glue crawlers to infer schema for the transformed tables.
 - Used boto3 python SDK at both resource and client level to communicate with different AWS services.
 - Performed data analytics using AWS Athena analytical services.
+- Performed data masking using environment variables to hide the sensitive data.
