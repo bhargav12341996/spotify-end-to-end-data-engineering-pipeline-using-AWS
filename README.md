@@ -1,6 +1,6 @@
 # spotify-end-to-end-data-engineering-pipeline-using-AWS
 
-In this project, I built end-to-end data engineering pipeline using Spotify API on AWS. In this project, I have worked on "BILLBOARD HOT 100 SONGS" playlist and extracted the data related to all the artists, songs & albums. 
+In this project, I built end-to-end data engineering pipeline using Spotify API on AWS. In this project, I have worked on "BILLBOARD HOT 100 SONGS" playlist and extracted the data related to all the artists, songs & albums. THis extracted data is in .json format and using Python pandas library we have transformed the document type data into structured dataframe format which is then crawled using AWS crawlers. These tables are further used for data analysis using AWS Athena analytical service.
 
 ## Architecture used in building this project:
 
